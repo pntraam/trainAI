@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', '1', '2', '3']
+
+roboflow:
+  workspace: chili-disease-detection-ffti1
+  project: chili-disease-afgra
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chili-disease-detection-ffti1/chili-disease-afgra/dataset/7
